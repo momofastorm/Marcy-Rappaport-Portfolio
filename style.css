@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing:border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    }
+  
+    @media(min-width:600px){
+      p{
+        font-size:1.25rem;
+      }
+    }
+  
+    /* Med screens- go to w3 */
+    @media all and(max-width:800px) {
+      #home#AboutMe#Work#ContactMe.main.headings.projects.project.navbar{
+        justify-content: space-around;
+      }
+    }
+    /* small screens */
+  @media all and(max-width:500px) {
+    #home#AboutMe#Work#ContactMe.main.headings.projects.navbar{
+      flex-direction: column;
+  }
+  }
+  /* navbar */
+  .navbar{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color:rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;
+    margin-bottom:0px
+  }
+  .navbar ul{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px ;
+  }
+  
+  .navbar ul li{
+    font-family:century;
+    font-size:1.1rem;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    transition: all .5s ease;
+    color: honeydew;
+    padding: 8px 25px;
+  }
+  .navbar ul li a:hover{
+    background-color:honeydew;
+    color:black;
+    box-shadow: 0 0 10px gray;
+  }
+  
+  /* Home area */
+  
+  #Home{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0);
+    height: 560px;
+    justify-content: center;
+    align-items: center;
+    color:whitesmoke
+  }
+   
+   
+  #Home:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right:0;
+    background:<img src="title-background.jpg" alt="title background picture" no-repeat center center/cover;
+    background-position: 0 20px 0 0;
+    border:3px solid black;
+    height: 100%;
+    width: 100%;
+    z-index:-1 ;
+    opacity: .8;
+  
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+   /*  border:1px solid whitesmoke; */
+    align-items: center;
+    position:absolute;
+    font-size:larger;
+    font-weight: 600;
+    color: rgb(8, 7, 6);
+    top: 60%;
+    right: 10%;
+    letter-spacing: 2px;
+    
+    /* border area whitesmoke 1px */
+    
+  /*   background-color:honeydew; 
+     */ 
+   
+  }
+  /* headings */
+  .headings{
+    font-family:century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+  }
+  .btn{
+   padding: 10px 35px;
+   background-color: transparent;
+   border: 1px solid whitesmoke;
+   color: whitesmoke;
+   outline:none;
+   transition: .6s ease 
+  
+  
+  }
+  
+  .email-link {
+    color: var(--green);
+    background-color: transparent;
+    border: 1px solid var(--green);
+    border-radius: var(--border-radius);
+    padding: 1.25rem 1.75rem;
+    font-size: var(--fz-sm);
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 50px;}
+    
+  .btn:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke,0 0 15px whitesmoke;
+    font-weight:bold ;
+  
+  }
+  
+  /* .headings{
+  font-size:3.5rem;  
+  }
+  .headings {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    overflow:auto;
+    width:300px;
+    margin:auto ;
+    margin-top: 1vh;
+    text-align: center;
+    margin-bottom: 1vh;
+    vertical-align:top;
+  }
+  .btn h2 img{
+    width: 100%;
+    height: 70%; */
+  
+  /* section-about me  */
+  #AboutMe{
+    margin:auto;
+    text-align:match-parent;
+    display: inside;
+    flex-direction:initial;
+    flex-wrap: wrap;
+    background-color: rgba(189, 181, 181, 0.9);
+    background:linear-gradient(to top);color:black;
+    box-sizing:border-box ; 
+    border:2px solid black;
+    padding: 20px;
+    top: 0%;
+    left:0%; ;
+    right: 30%;
+    margin-bottom: 50px;
+    }
+  /* The way that the profile picture look */
+  #picture{
+    display: flex;
+  }
+  
+  #picture img{
+    width:575px;
+    height:400px; 
+    
+  }
+  
+  /* introduction section */
+  #Introduction{
+    display: flex;
+    flex-direction:column;
+    text-align:justify;
+    padding: 20px;
+   /*  top: 0%;
+    left:0%; ;
+    right: 30%; */
+  }
+  
+  #Introduction h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    /* padding: 0px;
+    top: 0%;
+    left:0%; ;
+    right: 30%; */
+  } 
+  
+  
+  /* Work section( look at w3 website for help */
+  #Portfolio {
+     display: flex;
+    flex-direction: column;
+    background-color: rgba(189, 181, 181, 0.9);
+    color: black;
+    align-items: center;
+    padding: 20px;
+    border:2px solid black;
+  
+  }
+  .projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    box-sizing: border-box;
+    border:2px solid black;
+    flex-direction: column;
+    
+  } 
+  
+  
+  .projects img{
+    width: 360px;
+    height: 240px;
+    margin:10px ;
+    border:3px solid black;
+  }
+  
+  .projects{
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  }
+  .projects btn h2{
+    display: flex;
+    justify-content: flex-start;
+    border:2px solid black;
+  }
+  #Resume{
+    display:flex ;
+    flex-direction:column;
+    box-sizing:border-box ;
+    background-color: rgba(189, 181, 181, 0.9);
+    color: black;
+    padding: 20px;
+    border:2px solid black;
+    
+  }
+  #resume-button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large
+  }
+  
+  /* contact sections- cut and paste fro Module 1 */
+  #ContactMe{
+    display:flex ;
+    flex-direction:column;
+    box-sizing:border-box ;
+    background-color: rgba(189, 181, 181, 0.9);
+    color: black;
+    padding: 20px;
+    border:2px solid black;
+   
+  }
+  .form{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin:20px  0px;
+  }
+  
+  .input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+  }
+  #msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+  
+  }
+  #send{
+    padding: 10px;
+    width: 10%;
+    margin:40px;
+    border:none;
+    outline: none;
+    
+  }
+  #send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px whitesmoke;
+  }
