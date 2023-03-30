@@ -90,25 +90,20 @@
   .main{
     display: flex;
     flex-direction: column;
-   /*  border:1px solid whitesmoke; */
     align-items: center;
     position:absolute;
     font-size:larger;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(8, 7, 6);
-    top: 60%;
-    right: 10%;
+top: 5%
+    right: 40%
     letter-spacing: 2px;
     
-    /* border area whitesmoke 1px */
-    
-  /*   background-color:honeydew; 
-     */ 
    
   }
   /* headings */
   .headings{
-    font-family:century;
+    font-family:tahoma;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
