@@ -171,7 +171,7 @@
     display: inside;
     flex-direction:initial;
     flex-wrap: wrap;
-    background-color: rgba(189, 181, 181, 0.9);
+    background-color: rgba(128, 162, 241, 0.9);
     background:linear-gradient(to top);color:black;
     box-sizing:border-box ; 
     border:2px solid black;
@@ -187,8 +187,9 @@
   }
   
   #picture img{
-    width:575px;
-    height:400px; 
+    width:80%;
+    height: 80%; 
+    border:2px solid rgb(78, 76, 76);
     
   }
   
@@ -199,12 +200,12 @@
     text-align:center;
     padding: 20px;
    /*  top: 0%;
-    left:0%; ;
+    left:40%; ;
     right: 30%; */
   }
   
   #Introduction h2{
-    font-size: 2rem;
+    font-size: 20rem;
     margin-bottom: 20px;
     /* padding: 0px;
     top: 0%;
@@ -217,7 +218,7 @@
   #Portfolio {
      display: flex;
     flex-direction: column;
-    background-color: rgba(189, 181, 181, 0.9);
+    background-color: rgba(128, 162, 241, 0.9);
     color: black;
     align-items: center;
     padding: 20px;
