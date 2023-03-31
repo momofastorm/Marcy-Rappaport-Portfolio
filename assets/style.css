@@ -29,7 +29,7 @@
   /* navbar */
   .navbar{
     display: flex;
-    justify-content:center ;
+    justify-content:center;
     align-items: center;
     background-color:rgb(232, 111, 220);
     position: sticky;
@@ -43,7 +43,7 @@
   }
   
   .navbar ul li{
-    font-family:century;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:1.1rem;
     font-weight: bold;
   }
@@ -68,7 +68,7 @@
     height: 560px;
     justify-content: center;
     align-items: center;
-    color:whitesmoke
+    color: rgba(128, 162, 241, 0.9);
   }
    
    
@@ -98,15 +98,13 @@
     right: 10%;
     letter-spacing: 2px;
     
-    /* border area whitesmoke 1px */
+
     
-  /*   background-color:honeydew; 
-     */ 
-   
+  
   }
   /* headings */
   .headings{
-    font-family:century;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
@@ -114,8 +112,8 @@
   .btn{
    padding: 10px 35px;
    background-color: transparent;
-   border: 1px solid whitesmoke;
-   color: whitesmoke;
+   border: 1px solid  rgba(128, 162, 241, 0.9);
+   color:  rgba(128, 162, 241, 0.9);
    outline:none;
    transition: .6s ease 
   
@@ -138,9 +136,9 @@
     
   .btn:hover{
     cursor: pointer;
-    background-color: whitesmoke;
+    background-color: rgba(128, 162, 241, 0.9);
     color: black;
-    box-shadow: 0 0 5px whitesmoke, 0 0 10px whitesmoke,0 0 15px whitesmoke;
+    box-shadow: 0 0 5px  rgba(128, 162, 241, 0.9);, 0 0 10px  rgba(128, 162, 241, 0.9),0 0 15px  rgba(128, 162, 241, 0.9);
     font-weight:bold ;
   
   }
@@ -257,7 +255,7 @@
     display:flex ;
     flex-direction:column;
     box-sizing:border-box ;
-    background-color: rgba(189, 181, 181, 0.9);
+    background-color:  rgba(128, 162, 241, 0.9);
     color: black;
     padding: 20px;
     border:2px solid black;
@@ -268,12 +266,12 @@
     font-size:x-large
   }
   
-  /* contact sections- cut and paste from Module 1 */
+ 
   #ContactMe{
     display:flex ;
     flex-direction:column;
     box-sizing:border-box ;
-    background-color: rgba(189, 181, 181, 0.9);
+    background-color:  rgba(128, 162, 241, 0.9);
     color: black;
     padding: 20px;
     border:2px solid black;
@@ -312,5 +310,5 @@
   }
   #send:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px whitesmoke;
+    box-shadow: 0 0 10px  rgba(128, 162, 241, 0.9);
   }
